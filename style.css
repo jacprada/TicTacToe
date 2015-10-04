@@ -1,0 +1,54 @@
+body {
+	background-image: url("back.jpg");
+	background-size: initial;
+}
+
+div {
+	background-color: rgba(0,0,0,0.8);
+	width: 600px;
+	height: 550px;
+	margin: 40px auto;
+	padding: 30px;
+	border-radius: 50px;
+}
+
+.display {
+	background-color: black;
+	width: 500px;
+	height: 50px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	font-family: monospace;
+	font-size: 20px;
+	color: rgb(58, 171, 212);
+	border-style: dashed;
+	border-color: rgb(130, 78, 114);
+}
+
+.cell {
+	vertical-align: top;
+	background-color: black;
+	border-style: outset;
+	border-color: rgb(255, 226, 253);
+	width: 150px;
+	height: 100px;
+	margin: 10px;
+	text-align: center;
+	font-family: monospace;
+	font-size: 50px;
+	color: rgb(255, 226, 253);
+}
+
+.clear {
+	background-color: black;
+	width: 400px;
+	height: 50px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	font-family: monospace;
+	font-size: 30px;
+	color: rgb(255, 226, 253);
+	border-color: rgb(130, 78, 114);
+}
